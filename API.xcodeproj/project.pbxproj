@@ -15,6 +15,7 @@
 		5B3C15AF1CFDDD78004018FB /* DataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15AE1CFDDD78004018FB /* DataFetcher.m */; };
 		5B3C15B21CFDDF8C004018FB /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15B11CFDDF8C004018FB /* TextViewController.m */; };
 		5B3C15B51CFDE038004018FB /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15B41CFDE038004018FB /* GraphViewController.m */; };
+		5B3C15B81CFDEC18004018FB /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15B71CFDEC18004018FB /* Data.m */; };
 		CC8AC01C3B0954FC8BC159A0 /* libPods-API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9B87AF279D14AE8871E15D /* libPods-API.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		5B3C15B11CFDDF8C004018FB /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		5B3C15B31CFDE038004018FB /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
 		5B3C15B41CFDE038004018FB /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		5B3C15B61CFDEC18004018FB /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		5B3C15B71CFDEC18004018FB /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 		9B9B87AF279D14AE8871E15D /* libPods-API.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-API.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA046C419DD24BB48A49EC6 /* Pods-API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-API.release.xcconfig"; path = "Pods/Target Support Files/Pods-API/Pods-API.release.xcconfig"; sourceTree = "<group>"; };
 		BE5B7AE2890966D4E1400A8C /* Pods-API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-API.debug.xcconfig"; path = "Pods/Target Support Files/Pods-API/Pods-API.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				5B3C15B41CFDE038004018FB /* GraphViewController.m */,
 				5B3C15AD1CFDDD78004018FB /* DataFetcher.h */,
 				5B3C15AE1CFDDD78004018FB /* DataFetcher.m */,
+				5B3C15B61CFDEC18004018FB /* Data.h */,
+				5B3C15B71CFDEC18004018FB /* Data.m */,
 				5B3C159F1CFC9A02004018FB /* Main.storyboard */,
 				5B3C15A21CFC9A02004018FB /* Assets.xcassets */,
 				5B3C15A41CFC9A02004018FB /* LaunchScreen.storyboard */,
@@ -239,6 +244,7 @@
 				5B3C15AF1CFDDD78004018FB /* DataFetcher.m in Sources */,
 				5B3C15B51CFDE038004018FB /* GraphViewController.m in Sources */,
 				5B3C15B21CFDDF8C004018FB /* TextViewController.m in Sources */,
+				5B3C15B81CFDEC18004018FB /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
