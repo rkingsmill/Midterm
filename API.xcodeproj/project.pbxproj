@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		5B3C15981CFC9A02004018FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15971CFC9A02004018FB /* main.m */; };
 		5B3C159B1CFC9A02004018FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C159A1CFC9A02004018FB /* AppDelegate.m */; };
-		5B3C159E1CFC9A02004018FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C159D1CFC9A02004018FB /* ViewController.m */; };
 		5B3C15A11CFC9A02004018FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3C159F1CFC9A02004018FB /* Main.storyboard */; };
 		5B3C15A31CFC9A02004018FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3C15A21CFC9A02004018FB /* Assets.xcassets */; };
 		5B3C15A61CFC9A02004018FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3C15A41CFC9A02004018FB /* LaunchScreen.storyboard */; };
+		5B3C15AF1CFDDD78004018FB /* DataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15AE1CFDDD78004018FB /* DataFetcher.m */; };
+		5B3C15B21CFDDF8C004018FB /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15B11CFDDF8C004018FB /* TextViewController.m */; };
+		5B3C15B51CFDE038004018FB /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15B41CFDE038004018FB /* GraphViewController.m */; };
+		CC8AC01C3B0954FC8BC159A0 /* libPods-API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9B87AF279D14AE8871E15D /* libPods-API.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,19 @@
 		5B3C15971CFC9A02004018FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B3C15991CFC9A02004018FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B3C159A1CFC9A02004018FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B3C159C1CFC9A02004018FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B3C159D1CFC9A02004018FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B3C15A01CFC9A02004018FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B3C15A21CFC9A02004018FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B3C15A51CFC9A02004018FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3C15A71CFC9A02004018FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3C15AD1CFDDD78004018FB /* DataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFetcher.h; sourceTree = "<group>"; };
+		5B3C15AE1CFDDD78004018FB /* DataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFetcher.m; sourceTree = "<group>"; };
+		5B3C15B01CFDDF8C004018FB /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		5B3C15B11CFDDF8C004018FB /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		5B3C15B31CFDE038004018FB /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		5B3C15B41CFDE038004018FB /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		9B9B87AF279D14AE8871E15D /* libPods-API.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-API.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA046C419DD24BB48A49EC6 /* Pods-API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-API.release.xcconfig"; path = "Pods/Target Support Files/Pods-API/Pods-API.release.xcconfig"; sourceTree = "<group>"; };
+		BE5B7AE2890966D4E1400A8C /* Pods-API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-API.debug.xcconfig"; path = "Pods/Target Support Files/Pods-API/Pods-API.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8AC01C3B0954FC8BC159A0 /* libPods-API.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				5B3C15951CFC9A02004018FB /* API */,
 				5B3C15941CFC9A02004018FB /* Products */,
+				62DC836F3AB1A0E79C115FF5 /* Pods */,
+				F96C5DD230D743615CF53FC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +73,12 @@
 			children = (
 				5B3C15991CFC9A02004018FB /* AppDelegate.h */,
 				5B3C159A1CFC9A02004018FB /* AppDelegate.m */,
-				5B3C159C1CFC9A02004018FB /* ViewController.h */,
-				5B3C159D1CFC9A02004018FB /* ViewController.m */,
+				5B3C15B01CFDDF8C004018FB /* TextViewController.h */,
+				5B3C15B11CFDDF8C004018FB /* TextViewController.m */,
+				5B3C15B31CFDE038004018FB /* GraphViewController.h */,
+				5B3C15B41CFDE038004018FB /* GraphViewController.m */,
+				5B3C15AD1CFDDD78004018FB /* DataFetcher.h */,
+				5B3C15AE1CFDDD78004018FB /* DataFetcher.m */,
 				5B3C159F1CFC9A02004018FB /* Main.storyboard */,
 				5B3C15A21CFC9A02004018FB /* Assets.xcassets */,
 				5B3C15A41CFC9A02004018FB /* LaunchScreen.storyboard */,
@@ -79,6 +96,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		62DC836F3AB1A0E79C115FF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE5B7AE2890966D4E1400A8C /* Pods-API.debug.xcconfig */,
+				BCA046C419DD24BB48A49EC6 /* Pods-API.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F96C5DD230D743615CF53FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9B87AF279D14AE8871E15D /* libPods-API.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B3C15AA1CFC9A02004018FB /* Build configuration list for PBXNativeTarget "API" */;
 			buildPhases = (
+				F9B9CC6C628D96AFE903FA5F /* 📦 Check Pods Manifest.lock */,
 				5B3C158F1CFC9A02004018FB /* Sources */,
 				5B3C15901CFC9A02004018FB /* Frameworks */,
 				5B3C15911CFC9A02004018FB /* Resources */,
+				C826C15B52F7789E0530284E /* 📦 Embed Pods Frameworks */,
+				2C345FF7EC44B4A8A5789993 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +181,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C345FF7EC44B4A8A5789993 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-API/Pods-API-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C826C15B52F7789E0530284E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-API/Pods-API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B9CC6C628D96AFE903FA5F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B3C158F1CFC9A02004018FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B3C159E1CFC9A02004018FB /* ViewController.m in Sources */,
 				5B3C159B1CFC9A02004018FB /* AppDelegate.m in Sources */,
 				5B3C15981CFC9A02004018FB /* main.m in Sources */,
+				5B3C15AF1CFDDD78004018FB /* DataFetcher.m in Sources */,
+				5B3C15B51CFDE038004018FB /* GraphViewController.m in Sources */,
+				5B3C15B21CFDDF8C004018FB /* TextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +348,7 @@
 		};
 		5B3C15AB1CFC9A02004018FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5B7AE2890966D4E1400A8C /* Pods-API.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = API/Info.plist;
@@ -272,6 +360,7 @@
 		};
 		5B3C15AC1CFC9A02004018FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA046C419DD24BB48A49EC6 /* Pods-API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = API/Info.plist;
@@ -300,6 +389,7 @@
 				5B3C15AC1CFC9A02004018FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
