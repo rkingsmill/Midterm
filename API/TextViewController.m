@@ -7,6 +7,8 @@
 //
 
 #import "TextViewController.h"
+#import "Data.h"
+#import "GraphViewController.h"
 
 @interface TextViewController ()
 
@@ -17,6 +19,7 @@
 @property (nonatomic, weak) UITextField *textField;
 @property (nonatomic, weak) UIToolbar *toolbar;
 @property (nonatomic, weak) UIBarButtonItem *barButton;
+@property (nonatomic, weak) Data *data;
 
 @end
 
@@ -164,6 +167,10 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([[segue identifier] isEqualToString:@"getToneAnalysis"]) {
+         GraphViewController *gvc = [segue GraphViewController];
+    }
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
